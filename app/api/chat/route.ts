@@ -15,7 +15,6 @@ export async function POST(req: Request) {
       // 订阅 RxJS Observable
       chars$
         .pipe(
-          // 逐字符延迟 30ms
           concatMap((char) =>
             new Observable((subscriber) => {
               subscriber.next(char);
