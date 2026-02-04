@@ -49,57 +49,101 @@ __turbopack_context__.s([
     ()=>POST
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$2_80d45de3520c6243565887af9b4c58b4$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.0.1_@babel+core@7.2_80d45de3520c6243565887af9b4c58b4/node_modules/next/server.js [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs/dist/cjs/index.js [app-route] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$operators$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/rxjs@7.8.2/node_modules/rxjs/dist/cjs/operators/index.js [app-route] (ecmascript)");
 ;
-;
-;
-const MESSAGES = `卧槽，还真挺有效果的哦。夜阑卧听风吹雨，铁马冰河入梦来。东风夜放花千树，更吹落，星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。蛾儿雪柳黄金缕，笑语盈盈暗香去。众里寻他千百度，蓦然回首，那人却在，灯火阑珊处。`;
-async function POST(req) {
+// 这是一个 helper 函数，用来解析上游的流并转换为我们要的格式
+function iteratorToStream(iterator) {
     const encoder = new TextEncoder();
-    const stream = new ReadableStream({
+    const decoder = new TextDecoder();
+    return new ReadableStream({
         async start (controller) {
-            const chars = Array.from(MESSAGES);
-            const subscription = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["from"])(chars).pipe((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$operators$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["concatMap"])((char)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["of"])(char).pipe((0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$operators$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["delay"])(30 + Math.random() * 50))), (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$rxjs$40$7$2e$8$2e$2$2f$node_modules$2f$rxjs$2f$dist$2f$cjs$2f$operators$2f$index$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["map"])((char)=>{
-                return `data: ${JSON.stringify({
-                    content: char
-                })}\n\n`;
-            })).subscribe({
-                next: (encodedChunk)=>{
-                    try {
-                        controller.enqueue(encoder.encode(encodedChunk));
-                    } catch (error) {
-                        // 如果报错，说明流已经关闭了，赶紧取消订阅，别推了
-                        subscription.unsubscribe();
-                    }
-                },
-                complete: ()=>{
-                    // 🛡️ 防御措施 2：关闭前，试试看能不能关
-                    try {
-                        controller.close();
-                    } catch (error) {
-                    // 如果报错说明已经关了，那就无所谓了，忽略它
-                    }
-                },
-                error: (err)=>{
-                    console.error("RxJS Stream Error:", err);
-                    try {
-                        controller.error(err);
-                    } catch (error) {
-                    // 同上，忽略
+            for await (const chunk of iterator){
+                // chunk 是 Uint8Array，需要解码成字符串
+                const text = decoder.decode(chunk);
+                const lines = text.split("\n");
+                for (const line of lines){
+                    if (line.startsWith("data: ") && line !== "data: [DONE]") {
+                        try {
+                            // 1. 解析 SiliconFlow/OpenAI 的原始数据
+                            const jsonStr = line.replace("data: ", "");
+                            const json = JSON.parse(jsonStr);
+                            // 2. 提取真正的文本内容 (GLM/OpenAI 格式通常在 choices[0].delta.content)
+                            const content = json.choices?.[0]?.delta?.content || "";
+                            if (content) {
+                                // 3. 重新包装成你的前端能看懂的格式: { content: "..." }
+                                const payload = JSON.stringify({
+                                    content: content
+                                });
+                                // 4. 发送给前端
+                                controller.enqueue(encoder.encode(`data: ${payload}\n\n`));
+                            }
+                        } catch (e) {
+                            console.error("Error parsing stream:", e);
+                        }
                     }
                 }
-            });
-            req.signal.addEventListener("abort", ()=>{
-                subscription.unsubscribe();
-            });
-            return new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$2_80d45de3520c6243565887af9b4c58b4$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"](stream, {
-                headers: {
-                    "Content-Type": "text/event-stream",
-                    "Cache-Control": "no-cache",
-                    Connection: "keep-alive"
+            }
+            // 结束时发送 Done 标记
+            controller.enqueue(encoder.encode("data: [DONE]\n\n"));
+            controller.close();
+        }
+    });
+}
+async function POST(req) {
+    // 1. 获取前端发来的用户消息
+    const { message } = await req.json();
+    const apiKey = process.env.SILICONFLOW_API_KEY;
+    if (!apiKey) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$2_80d45de3520c6243565887af9b4c58b4$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            error: "API Key not found"
+        }, {
+            status: 500
+        });
+    }
+    // 2. 呼叫 SiliconFlow 接口
+    const response = await fetch("https://api.siliconflow.cn/v1/chat/completions", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${apiKey}`
+        },
+        // 关键：开启 stream: true，让 AI 边想边说
+        body: JSON.stringify({
+            model: "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B",
+            messages: [
+                {
+                    role: "system",
+                    content: "你是一个有用的助手"
+                },
+                {
+                    role: "user",
+                    content: message
                 }
-            });
+            ],
+            stream: true
+        })
+    });
+    if (!response.ok) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$2_80d45de3520c6243565887af9b4c58b4$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            error: "API call failed"
+        }, {
+            status: response.status
+        });
+    }
+    if (!response.body) {
+        return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$1_$40$babel$2b$core$40$7$2e$2_80d45de3520c6243565887af9b4c58b4$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
+            error: "No response body"
+        }, {
+            status: 500
+        });
+    }
+    // 3. 将上游的流经过转换后，返回给前端
+    // 这里的 response.body 是一个原始的 ReadableStream
+    const stream = iteratorToStream(response.body);
+    return new Response(stream, {
+        headers: {
+            "Content-Type": "text/event-stream",
+            "Cache-Control": "no-cache",
+            Connection: "keep-alive"
         }
     });
 }

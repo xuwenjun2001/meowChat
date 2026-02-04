@@ -5,12 +5,20 @@ import { Input } from "./input";
 import { Send } from "lucide-react";
 import * as React from "react";
 
-export default function ChatInput() {
+interface ChatInputProps {
+  onSend: (message: string) => void;
+  disabled?: boolean;
+}
+
+export default function ChatInput({ onSend, disabled }: ChatInputProps) {
   const [input, setInput] = React.useState("");
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!input.trim()) return;
+
+    onSend(input);
+
     setInput("");
   }
 
@@ -23,8 +31,9 @@ export default function ChatInput() {
             onChange={(e) => setInput(e.target.value)}
             placeholder="输入消息..."
             className="flex-1"
+            disabled={disabled}
           />
-          <Button type="submit" disabled={!input.trim()}>
+          <Button type="submit" disabled={!input.trim() || disabled}>
             <Send className="h-4 w-4" />
             <span className="sr-only">发送</span>
           </Button>
