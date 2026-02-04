@@ -1,0 +1,599 @@
+[00:00:01.749] Server  LOG      ✓ Ready in 1207ms
+[00:16:26.986] Server  LOG      ✓ Compiled in 30ms
+[00:19:15.672] Server  LOG      ✓ Compiled in 40ms
+[00:19:48.318] Server  LOG      ✓ Compiled in 37ms
+[00:44:26.635] Server  LOG      ✓ Compiled in 146ms
+[00:44:27.109] Browser ERROR   ./components/ChatInput/ChatInput.tsx:1:1
+Export default doesn't exist in target module
+> 1 | import Button from "./button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Input from "./input";
+  3 | import { Send } from "lucide-react";
+  4 |
+
+The export default was not found in module [project]/components/ChatInput/button.tsx [app-rsc] (ecmascript).
+Did you mean to import buttonVariants?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ChatInput/ChatInput.tsx
+    ./app/page.tsx
+[00:44:27.109] Browser ERROR   ./components/ThemeToggle.tsx:2:1
+Export default doesn't exist in target module
+  1 | import { Moon, Sun } from "lucide-react";
+> 2 | import Button from "./ChatInput/button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ThemeToggle() {
+  5 |   return (
+
+The export default was not found in module [project]/components/ChatInput/button.tsx [app-rsc] (ecmascript).
+Did you mean to import buttonVariants?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ThemeToggle.tsx
+    ./app/page.tsx
+[00:45:41.007] Server  LOG      ✓ Compiled in 58ms
+[00:45:41.113] Browser ERROR   ./components/ChatInput/ChatInput.tsx:1:1
+Export default doesn't exist in target module
+> 1 | import Button from "./button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Input from "./input";
+  3 | import { Send } from "lucide-react";
+  4 |
+
+The export default was not found in module [project]/components/ChatInput/button.tsx [app-rsc] (ecmascript).
+Did you mean to import buttonVariants?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ChatInput/ChatInput.tsx
+    ./app/page.tsx
+[00:45:41.113] Browser ERROR   ./components/ChatInput/ChatInput.tsx:2:1
+Export default doesn't exist in target module
+  1 | import Button from "./button";
+> 2 | import Input from "./input";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Send } from "lucide-react";
+  4 |
+  5 | export default function ChatInput() {
+
+The export default was not found in module [project]/components/ChatInput/input.tsx [app-rsc] (ecmascript).
+Did you mean to import Input?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ChatInput/ChatInput.tsx
+    ./app/page.tsx
+[00:45:41.113] Browser ERROR   ./components/ThemeToggle.tsx:2:1
+Export default doesn't exist in target module
+  1 | import { Moon, Sun } from "lucide-react";
+> 2 | import Button from "./ChatInput/button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function ThemeToggle() {
+  5 |   return (
+
+The export default was not found in module [project]/components/ChatInput/button.tsx [app-rsc] (ecmascript).
+Did you mean to import buttonVariants?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ThemeToggle.tsx
+    ./app/page.tsx
+[00:45:43.114] Browser ERROR   ./components/ChatInput/ChatInput.tsx:1:1
+Export default doesn't exist in target module
+> 1 | import Button from "./button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import Input from "./input";
+  3 | import { Send } from "lucide-react";
+  4 |
+
+The export default was not found in module [project]/components/ChatInput/button.tsx [app-rsc] (ecmascript).
+Did you mean to import buttonVariants?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ChatInput/ChatInput.tsx
+    ./app/page.tsx
+[00:45:43.114] Browser ERROR   ./components/ChatInput/ChatInput.tsx:2:1
+Export default doesn't exist in target module
+  1 | import Button from "./button";
+> 2 | import Input from "./input";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { Send } from "lucide-react";
+  4 |
+  5 | export default function ChatInput() {
+
+The export default was not found in module [project]/components/ChatInput/input.tsx [app-rsc] (ecmascript).
+Did you mean to import Input?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./components/ChatInput/ChatInput.tsx
+    ./app/page.tsx
+[00:46:02.480] Server  LOG      ✓ Compiled in 34ms
+[03:52:51.107] Browser ERROR   Cannot render a sync or defer <script> outside the main document without knowing its order. Try adding async="" or moving it into the root <head> tag.
+[03:52:51.107] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <script> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:"/", ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <ThemeProvider>
+                            <J attribute="class" defaultTheme="system" enableSystem={true} ...>
+                              <V attribute="class" defaultTheme="system" enableSystem={true} ...>
+>                               <script
+>                                 suppressHydrationWarning={true}
+>                                 nonce=""
+>                                 dangerouslySetInnerHTML={{__html:"((e, i, s,..."}}
+>                               >
+                                ...
+                  ...
+
+[03:52:51.107] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. html <script>
+[03:56:16.852] Server  ERROR    ⨯ Error: Attempted to call useTheme() from the server but useTheme is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[03:56:17.104] Browser ERROR   uncaughtError: Error: Attempted to call useTheme() from the server but useTheme is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.
+[03:58:25.108] Browser ERROR   Cannot render a sync or defer <script> outside the main document without knowing its order. Try adding async="" or moving it into the root <head> tag.
+[03:58:25.108] Browser ERROR   In HTML, %s cannot be a child of <%s>.%s
+This will cause a hydration error.%s <script> html  
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+>                       <html lang="en">
+                          <ThemeProvider>
+                            <J attribute="class" defaultTheme="system" enableSystem={true} ...>
+                              <V attribute="class" defaultTheme="system" enableSystem={true} ...>
+>                               <script
+>                                 suppressHydrationWarning={true}
+>                                 nonce=""
+>                                 dangerouslySetInnerHTML={{__html:"((e, i, s,..."}}
+>                               >
+                                ...
+                  ...
+
+[03:58:25.108] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. html <script>
+[03:58:25.108] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         className="light"
+-                         style={{color-scheme:"light"}}
+                        >
+                  ...
+
+[04:05:09.670] Server  LOG      ✓ Compiled in 117ms
+[04:05:33.073] Server  LOG      ✓ Compiled in 41ms
+[04:12:35.674] Server  LOG      ✓ Compiled in 50ms
+[04:16:56.910] Server  LOG      ✓ Compiled in 35ms
+[04:23:07.398] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[04:23:08.114] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[04:28:03.839] Server  LOG      ✓ Compiled in 32ms
+[04:28:15.770] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[04:28:16.108] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[04:28:40.243] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:28:40.266] Server  LOG      ✓ Compiled in 148ms
+[04:37:04.474] Server  LOG      ✓ Compiled in 62ms
+[04:39:35.593] Server  LOG      ✓ Compiled in 34ms
+[09:15:23.074] Server  LOG      ✓ Compiled in 55ms
+[10:54:44.640] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:54:45.107] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:56:15.236] Server  LOG      ✓ Compiled in 34ms
+[10:56:15.460] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:56:17.108] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:57:34.893] Server  LOG      ✓ Compiled in 38ms
+[10:57:35.068] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:57:36.113] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:57:59.584] Server  LOG      ✓ Compiled in 36ms
+[10:57:59.742] Server  ERROR    ⨯ TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:58:00.445] Browser ERROR   uncaughtError: TypeError: useState only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component
+[10:58:12.419] Browser ERROR   unhandledRejection: Error: API request failed
+[10:58:28.795] Server  LOG      ✓ Compiled in 46ms
+[10:59:40.210] Server  LOG      ✓ Compiled in 36ms
+[10:59:41.837] Server  LOG      ✓ Compiled in 34ms
+[11:01:30.432] Server  LOG      ✓ Compiled in 33ms
+[11:01:51.894] Server  LOG      ✓ Compiled in 31ms
+[11:02:01.189] Server  LOG      ✓ Compiled in 33ms
+[11:04:45.017] Server  ERROR   TypeError: (intermediate value).subscribe is not a function
+[11:09:19.727] Server  LOG      ✓ Compiled in 32ms
+[11:20:06.488] Server  LOG      ✓ Compiled in 34ms
+[11:20:11.967] Server  LOG      ✓ Compiled in 35ms
+[11:20:17.919] Server  ERROR   Error: No response is returned from route handler '[project]/app/api/chat/route.ts'. Ensure you return a `Response` or a `NextResponse` in all branches of your handler.
+[11:20:18.020] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.042] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.051] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.069] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.076] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.084] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.117] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.125] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.142] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.195] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.204] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.213] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.255] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.271] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.277] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.316] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.323] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.330] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.379] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.394] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.402] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.449] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.464] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.477] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.535] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.542] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.551] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.598] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.606] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.613] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.630] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.640] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.649] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.691] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.699] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.708] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.755] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.764] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.772] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.812] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.818] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.827] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.874] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.884] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.891] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.940] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.950] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.960] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:18.998] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.005] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.013] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.028] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.035] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.042] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.090] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.096] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.103] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.138] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.144] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.152] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.216] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.224] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.231] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.275] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.286] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.292] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.338] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.345] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.352] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.401] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.411] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.417] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.492] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.501] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.509] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.536] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.542] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.549] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.628] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.634] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.640] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.689] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.695] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.703] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.751] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.757] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.764] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.782] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.789] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.796] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.844] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.865] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.874] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.923] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.932] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.941] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.986] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:19.994] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.004] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.017] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.025] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.033] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.080] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.088] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.095] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.143] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.152] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.161] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.208] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.217] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.225] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.267] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.275] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.281] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.328] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.337] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.347] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.392] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.403] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.412] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.454] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.461] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.468] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.530] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.537] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.545] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.592] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.599] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.605] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.652] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.658] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.666] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.716] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.722] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.729] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.779] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.784] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.790] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.840] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.846] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.853] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.903] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.910] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.917] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.963] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.969] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:20.978] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.040] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.047] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.054] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.132] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.138] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.144] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.195] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.200] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.207] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.257] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.264] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.272] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.287] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.293] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.301] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.332] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.338] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.345] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.396] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.408] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.418] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.456] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.463] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.470] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.533] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.540] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.546] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.579] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.587] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.593] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.640] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.646] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.653] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.703] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.709] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.717] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.764] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.770] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.777] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.826] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.832] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.839] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.922] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.931] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.937] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.962] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.971] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:21.982] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.059] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.066] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.074] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.120] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.127] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.133] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.166] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.172] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.179] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.212] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.217] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.223] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.260] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.266] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.273] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.322] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.328] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.335] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.386] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.393] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.400] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.479] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.486] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.494] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.524] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.531] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.542] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.557] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.564] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.574] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.620] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.627] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.635] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.683] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.691] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.699] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.746] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.755] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.763] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.809] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.817] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.824] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.916] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.923] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.930] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.979] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.986] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:22.996] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.040] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.045] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.052] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.118] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.126] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.132] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.192] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.198] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.205] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.237] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.243] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.251] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.286] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.292] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.298] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.348] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.354] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.360] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.408] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.414] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.421] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.440] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.447] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.453] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.503] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.509] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.515] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.562] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.568] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.575] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.593] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.600] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.607] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.657] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.663] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.670] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.748] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.754] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.761] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.778] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.785] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.791] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.840] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.846] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.853] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.950] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.960] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:23.968] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.009] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.014] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.022] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.086] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.092] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.099] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.134] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.139] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.148] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.198] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.204] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.212] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.259] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.264] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.271] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.319] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.326] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.334] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.383] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.388] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.395] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.476] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.485] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.493] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.524] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.531] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.538] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.569] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.576] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.586] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.635] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.643] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.651] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.659] Server  ERROR   TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.667] Server  ERROR    ⨯ "uncaughtException:" TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:20:24.676] Server  ERROR    ⨯ "uncaughtException: " TypeError [ERR_INVALID_STATE]: Invalid state: Controller is already closed
+[11:25:08.685] Server  ERROR   Error: No response is returned from route handler '[project]/app/api/chat/route.ts'. Ensure you return a `Response` or a `NextResponse` in all branches of your handler.
+[11:25:33.933] Server  ERROR   Error: No response is returned from route handler '[project]/app/api/chat/route.ts'. Ensure you return a `Response` or a `NextResponse` in all branches of your handler.
+[11:28:29.289] Browser ERROR   Failed to parse SSE data: {}
+[11:28:55.340] Server  LOG      ✓ Compiled in 40ms
