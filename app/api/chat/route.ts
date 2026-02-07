@@ -1,100 +1,61 @@
-import { NextRequest, NextResponse } from "next/server";
-import { from, of } from "rxjs";
-import { concatMap, delay, map } from "rxjs/operators";
-import { Observable } from "rxjs";
+import { createOpenAI } from "@ai-sdk/openai";
+import { streamText, convertToModelMessages, type UIMessage } from "ai";
+import { auth } from "@/auth";
+import { prisma } from "@/lib/prisma";
 
-// 这是一个 helper 函数，用来解析上游的流并转换为我们要的格式
-function iteratorToStream(iterator: any) {
-  const encoder = new TextEncoder();
-  const decoder = new TextDecoder();
+const deepseek = createOpenAI({
+  baseURL: "https://api.siliconflow.cn/v1",
+  apiKey: process.env.SILICONFLOW_API_KEY,
+});
 
-  return new ReadableStream({
-    async start(controller) {
-      for await (const chunk of iterator) {
-        // chunk 是 Uint8Array，需要解码成字符串
-        const text = decoder.decode(chunk);
-        const lines = text.split("\n");
-
-        for (const line of lines) {
-          if (line.startsWith("data: ") && line !== "data: [DONE]") {
-            try {
-              // 1. 解析 SiliconFlow/OpenAI 的原始数据
-              const jsonStr = line.replace("data: ", "");
-              const json = JSON.parse(jsonStr);
-
-              // 2. 提取真正的文本内容 (GLM/OpenAI 格式通常在 choices[0].delta.content)
-              const content = json.choices?.[0]?.delta?.content || "";
-
-              if (content) {
-                // 3. 重新包装成你的前端能看懂的格式: { content: "..." }
-                const payload = JSON.stringify({ content: content });
-                // 4. 发送给前端
-                controller.enqueue(encoder.encode(`data: ${payload}\n\n`));
-              }
-            } catch (e) {
-              console.error("Error parsing stream:", e);
-            }
-          }
-        }
-      }
-      // 结束时发送 Done 标记
-      controller.enqueue(encoder.encode("data: [DONE]\n\n"));
-      controller.close();
-    },
-  });
+function extractTextFromUIMessage(msg: UIMessage): string {
+  return (msg.parts ?? [])
+    .filter((p) => p.type === "text")
+    .map((p: any) => p.text ?? "")
+    .join("");
 }
 
-export async function POST(req: NextRequest) {
-  // 1. 获取前端发来的用户消息
-  const { message } = await req.json();
+export async function POST(req: Request) {
+  const session = await auth();
+  if (!session?.user?.id) return new Response("Unauthorized", { status: 401 });
 
-  const apiKey = process.env.SILICONFLOW_API_KEY;
+  const { messages, chatId }: { messages: UIMessage[]; chatId: string } =
+    await req.json();
 
-  if (!apiKey) {
-    return NextResponse.json({ error: "API Key not found" }, { status: 500 });
-  }
+  const modelMessages = await convertToModelMessages(messages); // 注意要 await :contentReference[oaicite:1]{index=1}
 
-  // 2. 呼叫 SiliconFlow 接口
-  const response = await fetch(
-    "https://api.siliconflow.cn/v1/chat/completions",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${apiKey}`,
-      },
-      // 关键：开启 stream: true，让 AI 边想边说
-      body: JSON.stringify({
-        model: "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B", // 或者是你喜欢的其他模型
-        messages: [
-          { role: "system", content: "你是一个有用的助手" },
-          { role: "user", content: message }, // 使用真实的用户输入
-        ],
-        stream: true, // <--- 重点！
-      }),
-    },
-  );
+  const result = streamText({
+    model: deepseek("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
+    messages: modelMessages,
 
-  if (!response.ok) {
-    return NextResponse.json(
-      { error: "API call failed" },
-      { status: response.status },
-    );
-  }
+    onFinish: async ({ text }) => {
+      const last = messages[messages.length - 1];
+      const userText =
+        last?.role === "user" ? extractTextFromUIMessage(last) : "";
+      const aiContent = text ?? "";
 
-  if (!response.body) {
-    return NextResponse.json({ error: "No response body" }, { status: 500 });
-  }
+      if (!userText || !aiContent) return;
 
-  // 3. 将上游的流经过转换后，返回给前端
-  // 这里的 response.body 是一个原始的 ReadableStream
-  const stream = iteratorToStream(response.body as any);
+      await prisma.$transaction(async (tx) => {
+        await tx.chat.upsert({
+          where: { id: chatId },
+          create: {
+            id: chatId,
+            userId: session.user.id,
+            title: userText.slice(0, 20) || "新对话",
+          },
+          update: {},
+        });
 
-  return new Response(stream, {
-    headers: {
-      "Content-Type": "text/event-stream",
-      "Cache-Control": "no-cache",
-      Connection: "keep-alive",
+        await tx.message.create({
+          data: { chatId, role: "user", content: userText },
+        });
+        await tx.message.create({
+          data: { chatId, role: "assistant", content: aiContent },
+        });
+      });
     },
   });
+
+  return result.toUIMessageStreamResponse(); // 见第 2 点
 }

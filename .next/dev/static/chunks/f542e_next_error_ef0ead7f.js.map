@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///D:/job/meowcat/node_modules/.pnpm/next%4016.0.1_%40babel%2Bcore%407.2_80d45de3520c6243565887af9b4c58b4/node_modules/next/error.js"],"sourcesContent":["module.exports = require('./dist/pages/_error')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0],"debugId":null}}]
+}

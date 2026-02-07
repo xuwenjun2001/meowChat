@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/job/meowcat/app/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ChatInterface } from \"@/components/ChatInterface\";\r\nimport { generateId } from \"ai\"; // SDK 自带的 ID 生成器\r\n\r\nexport default function NewChatPage() {\r\n  // 每次进入首页，都在服务端预生成一个随机 ID\r\n  // 这样当用户开始打字时，我们就知道这个会话的 ID 了\r\n  const id = generateId();\r\n\r\n  return <ChatInterface id={id} initialMessages={[]} />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA,odAAiC,iBAAiB;AAHlD;;;;AAKe,SAAS;IACtB,yBAAyB;IACzB,6BAA6B;IAC7B,MAAM,KAAK,IAAA,oSAAU;IAErB,qBAAO,4SAAC,gJAAa;QAAC,IAAI;QAAI,iBAAiB,EAAE;;;;;;AACnD;KANwB","debugId":null}}]
+}

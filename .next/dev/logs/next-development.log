@@ -1,18 +1,1016 @@
-[00:00:02.806] Server  LOG      ✓ Ready in 1960ms
-[00:00:06.071] Server  LOG      ○ Compiling / ...
-[00:03:43.977] Server  LOG      ✓ Compiled in 90ms
-[00:35:31.062] Server  LOG      ✓ Compiled in 70ms
-[00:36:07.495] Server  LOG      ✓ Compiled in 41ms
-[00:41:19.691] Server  LOG      ✓ Compiled in 33ms
-[00:43:45.457] Server  LOG      ✓ Compiled in 155ms
-[01:07:55.549] Server  LOG      ✓ Compiled in 185ms
-[01:08:27.799] Server  LOG      ✓ Compiled in 47ms
-[01:17:15.356] Server  LOG      ✓ Compiled in 34ms
-[01:19:11.613] Server  LOG      ✓ Compiled in 98ms
-[03:19:11.536] Server  LOG      ✓ Compiled in 97ms
-[03:22:54.649] Server  LOG      ✓ Compiled in 34ms
-[03:22:55.593] Server  LOG      ✓ Compiled in 37ms
-[03:54:08.223] Server  LOG        Reload env: .env.local
-[03:54:36.952] Server  LOG        Reload env: .env.local
-[04:02:53.340] Server  LOG      ✓ Compiled in 48ms
-[04:06:02.917] Server  LOG      ✓ Compiled in 168ms
+[00:00:01.441] Server  LOG      ✓ Ready in 897ms
+[00:28:39.877] Server  LOG      ✓ Compiled in 72ms
+[00:29:07.648] Server  LOG      ✓ Compiled in 1203ms
+[00:29:08.286] Server  LOG      ✓ Compiled in 88ms
+[00:29:08.839] Server  LOG      ✓ Compiled in 40ms
+[00:29:09.088] Server  LOG      ✓ Compiled in 66ms
+[00:45:04.386] Server  LOG      ✓ Compiled in 90ms
+[00:46:35.422] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'map')
+[01:51:14.396] Server  LOG      ✓ Compiled in 119ms
+[01:51:33.269] Server  ERROR   TypeError: messages is not iterable
+[02:00:42.157] Server  LOG      ✓ Compiled in 1542ms
+[02:30:30.411] Server  LOG      ✓ Compiled in 845ms
+[02:30:30.984] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:30.984] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:45.986] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:45.986] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:52.962] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.032] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.032] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.045] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.101] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.129] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.159] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.189] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.219] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.248] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.278] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.307] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.332] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.371] Server  ERROR    ⨯ ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+
+./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.595] Browser ERROR   uncaughtError: Error: ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:57.974] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:30:57.974] Browser ERROR   ./app/page.tsx:3:1
+Export ChatInterface doesn't exist in target module
+  1 | "use client";
+  2 |
+> 3 | import { ChatInterface } from "@/components/ChatInterface";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
+  5 |
+  6 | export default function NewChatPage() {
+
+The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[02:31:02.414] Server  LOG      ✓ Compiled in 360ms
