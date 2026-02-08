@@ -47,10 +47,10 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 }
 
 
-// Validate ../../../app/api/chat/[id]/page.tsx
+// Validate ../../../app/chat/[id]/page.tsx
 {
-  type __IsExpected<Specific extends AppPageConfig<"/api/chat/[id]">> = Specific
-  const handler = {} as typeof import("../../../app/api/chat/[id]/page.js")
+  type __IsExpected<Specific extends AppPageConfig<"/chat/[id]">> = Specific
+  const handler = {} as typeof import("../../../app/chat/[id]/page.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

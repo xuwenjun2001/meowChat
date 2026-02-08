@@ -1,41 +1,46 @@
 "use client";
 
-import { useChat } from "@ai-sdk/react";
+import { Chat, useChat } from "@ai-sdk/react";
 import { useEffect, useRef } from "react";
 import { ChatMessage } from "@/components/ChatMessage"; // 复用你之前的组件
 import ChatInput from "@/components/ChatInput/ChatInput"; // 复用你之前的组件
 import { useRouter } from "next/navigation";
 
+let content;
+
 interface ChatInterfaceProps {
   id: string; // 会话 ID
   initialMessages?: any[]; // 历史消息
+  isOldChat?: boolean;
 }
 
 export function ChatInterface({
   id,
   initialMessages = [],
+  isOldChat = false,
 }: ChatInterfaceProps) {
   const router = useRouter();
   const bottomRef = useRef<HTMLDivElement>(null);
 
   // Vercel AI SDK 的核心 Hook
-  const { messages, input, handleInputChange, handleSubmit, isLoading } =
-    useChat({
-      api: "/api/chat", // 指向我们刚修好的后端
-      id: id,
-      initialMessages: initialMessages, // 加载历史记录
-      body: { chatId: id }, // 把 ID 传给后端，确保存入正确的数据库记录
+  const { messages, sendMessage, status, stop, error } = useChat({
+    id: id,
+    messages: initialMessages, // 加载历史记录
 
-      // 当收到第一条回复后
-      onFinish: () => {
-        // 如果当前还在首页 ("/")，就无感更新 URL 到 "/chat/会话ID"
-        // 这样刷新页面也不会丢失对话
-        if (window.location.pathname === "/") {
-          window.history.replaceState({}, "", `/chat/${id}`);
-          router.refresh(); // 刷新一下，让侧边栏出现新标题
-        }
-      },
-    });
+    // 当收到第一条回复后
+    onFinish: () => {
+      // 如果当前还在首页 ("/")，就无感更新 URL 到 "/chat/会话ID"
+      // 这样刷新页面也不会丢失对话
+      if (window.location.pathname === "/") {
+        window.history.replaceState({}, "", `/chat/${id}`);
+        router.refresh(); // 刷新一下，让侧边栏出现新标题
+      }
+    },
+  });
+
+  function handleSend(message: string) {
+    sendMessage({ text: message }, { body: { chatId: id } });
+  }
 
   // 自动滚动到底部
   useEffect(() => {
@@ -51,10 +56,30 @@ export function ChatInterface({
             <h2 className="text-xl font-semibold text-gray-700">MeowChat</h2>
             <p className="text-sm">开始一个新的对话吧...</p>
           </div>
+        ) : !isOldChat ? (
+          messages
+            .filter((m) => m.role === "user" || m.role === "assistant")
+            .map(
+              (m) => (
+                (content = m.parts
+                  .filter((n) => n.type === "text")
+                  .map((n) => n.text)
+                  .join("")),
+                (
+                  // 这里直接复用你现有的 ChatMessage 组件
+                  <ChatMessage
+                    key={m.id}
+                    message={{ id: m.id, role: m.role, content: content }}
+                  />
+                )
+              ),
+            )
         ) : (
           messages.map((m) => (
-            // 这里直接复用你现有的 ChatMessage 组件
-            <ChatMessage key={m.id} message={m} />
+            <ChatMessage
+              key={m.id}
+              message={{ id: m.id, role: m.role, content: m.content }}
+            />
           ))
         )}
         {/* 这是一个看不见的锚点，用于自动滚动 */}
@@ -64,12 +89,7 @@ export function ChatInterface({
       {/* 2. 输入框区域 */}
       <div className="border-t bg-white p-4">
         <div className="mx-auto max-w-3xl">
-          <ChatInput
-            input={input}
-            handleInputChange={handleInputChange}
-            handleSubmit={handleSubmit}
-            isLoading={isLoading}
-          />
+          <ChatInput handleSend={handleSend} disabled={status !== "ready"} />
         </div>
       </div>
     </div>

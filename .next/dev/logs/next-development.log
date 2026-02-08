@@ -1,1016 +1,893 @@
-[00:00:01.441] Server  LOG      ✓ Ready in 897ms
-[00:28:39.877] Server  LOG      ✓ Compiled in 72ms
-[00:29:07.648] Server  LOG      ✓ Compiled in 1203ms
-[00:29:08.286] Server  LOG      ✓ Compiled in 88ms
-[00:29:08.839] Server  LOG      ✓ Compiled in 40ms
-[00:29:09.088] Server  LOG      ✓ Compiled in 66ms
-[00:45:04.386] Server  LOG      ✓ Compiled in 90ms
-[00:46:35.422] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'map')
-[01:51:14.396] Server  LOG      ✓ Compiled in 119ms
-[01:51:33.269] Server  ERROR   TypeError: messages is not iterable
-[02:00:42.157] Server  LOG      ✓ Compiled in 1542ms
-[02:30:30.411] Server  LOG      ✓ Compiled in 845ms
-[02:30:30.984] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:30.984] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:45.986] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:45.986] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:52.962] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:53.977] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.032] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.032] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.045] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.101] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.129] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.159] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.189] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.219] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.248] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.278] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.307] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.332] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.333] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.371] Server  ERROR    ⨯ ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-
-./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.595] Browser ERROR   uncaughtError: Error: ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-
-
-[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:55.979] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:57.974] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-client] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:30:57.974] Browser ERROR   ./app/page.tsx:3:1
-Export ChatInterface doesn't exist in target module
-  1 | "use client";
-  2 |
-> 3 | import { ChatInterface } from "@/components/ChatInterface";
-    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  4 | import { generateId } from "ai"; // SDK 自带的 ID 生成器
-  5 |
-  6 | export default function NewChatPage() {
-
-The export ChatInterface was not found in module [project]/components/ChatInterface.tsx [app-ssr] (ecmascript).
-The module has no exports at all.
-All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
-
-Import traces:
-  Client Component Browser:
-    ./app/page.tsx [Client Component Browser]
-    ./app/page.tsx [Server Component]
-
-  Client Component SSR:
-    ./app/page.tsx [Client Component SSR]
-    ./app/page.tsx [Server Component]
-[02:31:02.414] Server  LOG      ✓ Compiled in 360ms
+[00:00:02.089] Server  LOG      ✓ Ready in 1284ms
+[00:00:05.164] Server  LOG      ○ Compiling / ...
+[00:00:18.884] Browser ERROR   uncaughtError: TypeError: onSend is not a function
+[00:00:20.493] Browser ERROR   uncaughtError: TypeError: onSend is not a function
+[01:40:30.872] Server  LOG      ✓ Compiled in 288ms
+[01:41:01.597] Server  LOG      ✓ Compiled in 71ms
+[01:46:46.320] Server  LOG      ✓ Compiled in 53ms
+[01:49:49.215] Server  LOG      ✓ Compiled in 98ms
+[02:08:35.985] Server  LOG      ✓ Compiled in 54ms
+[02:09:23.184] Server  LOG      ✓ Compiled in 248ms
+[02:11:31.548] Server  LOG      ✓ Compiled in 147ms
+[02:11:44.136] Server  LOG      ✓ Compiled in 44ms
+[02:11:58.484] Browser LOG     Rendering message: {"id":"zHaRC30j1M4j2w14","parts":[{"text":"123","type":"text"}],"role":"user"}
+[02:11:58.484] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"zHaRC30j1M4j2w14","parts":[{"text":"123","type":"text"}],"role":"user"}
+[02:12:05.434] Server  ERROR   [auth][error] AdapterError: Read more at https://errors.authjs.dev#adaptererror
+[02:12:05.440] Server  ERROR   [auth][cause]: "PrismaClientKnownRequestError: \nInvalid `p.session.findUnique()` invocation in\nD:\\job\\meowcat\\.next\\dev\\server\\chunks\\node_modules__pnpm_65107e4c._.js:8958:52\n\n  8955         }\n  8956     }),\n  8957 async getSessionAndUser (sessionToken) {\n→ 8958     const userAndSession = await p.session.findUnique(\nCan't reach database server at `ep-winter-term-a162r3fn-pooler.ap-southeast-1.aws.neon.tech:5432`\n\nPlease make sure your database server is running at `ep-winter-term-a162r3fn-pooler.ap-southeast-1.aws.neon.tech:5432`.\n    at ei.handleRequestError (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:7268)\n    at ei.handleAndLogRequestError (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:6593)\n    at ei.request (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:6300)\n    at async a (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:130:9551)\n    at async getSessionAndUser (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\node_modules__pnpm_65107e4c._.js:8958:36)\n    at async acc.<computed> (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:1621:24)\n    at async Module.session (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:4607:30)\n    at async AuthInternal (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:5131:24)\n    at async Auth (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:5370:34)\n    at async POST (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\[root-of-the-server]__8ef045e9._.js:132:21)\n    at async AppRouteRouteModule.do (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:23:37913)\n    at async AppRouteRouteModule.handle (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:23:45132)\n    at async responseGenerator (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16089:38)\n    at async AppRouteRouteModule.handleResponse (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:19:132654)\n    at async handleResponse (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16151:32)\n    at async handler (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16204:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1415:9)\n    at async DevServer.renderPageComponent (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1467:24)\n    at async DevServer.renderToResponseImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1517:32)\n    at async DevServer.pipeImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1023:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\next-server.js:394:17)\n    at async DevServer.handleRequestImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:914:17)\n    at async D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:373:20\n    at async Span.traceAsyncFn (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:369:24)\n    at async invokeRender (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:436:24)\n    at async requestHandlerImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:484:13)\n    at async Server.requestListener (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"
+[02:12:05.441] Server  ERROR   [auth][details]: "{}"
+[02:12:05.443] Server  ERROR   [auth][error] SessionTokenError: Read more at https://errors.authjs.dev#sessiontokenerror
+[02:12:05.444] Server  ERROR   [auth][cause]: "PrismaClientKnownRequestError: \nInvalid `p.session.findUnique()` invocation in\nD:\\job\\meowcat\\.next\\dev\\server\\chunks\\node_modules__pnpm_65107e4c._.js:8958:52\n\n  8955         }\n  8956     }),\n  8957 async getSessionAndUser (sessionToken) {\n→ 8958     const userAndSession = await p.session.findUnique(\nCan't reach database server at `ep-winter-term-a162r3fn-pooler.ap-southeast-1.aws.neon.tech:5432`\n\nPlease make sure your database server is running at `ep-winter-term-a162r3fn-pooler.ap-southeast-1.aws.neon.tech:5432`.\n    at ei.handleRequestError (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:7268)\n    at ei.handleAndLogRequestError (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:6593)\n    at ei.request (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:121:6300)\n    at async a (D:\\job\\meowcat\\node_modules\\.pnpm\\@prisma+client@6.19.2_prism_6b2b1af085fe6797f5a5ea830937a8e3\\node_modules\\@prisma\\client\\runtime\\library.js:130:9551)\n    at async getSessionAndUser (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\node_modules__pnpm_65107e4c._.js:8958:36)\n    at async acc.<computed> (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:1621:24)\n    at async Module.session (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:4607:30)\n    at async AuthInternal (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:5131:24)\n    at async Auth (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\691c0_@auth_core_c5194e3f._.js:5370:34)\n    at async POST (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\[root-of-the-server]__8ef045e9._.js:132:21)\n    at async AppRouteRouteModule.do (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:23:37913)\n    at async AppRouteRouteModule.handle (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:23:45132)\n    at async responseGenerator (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16089:38)\n    at async AppRouteRouteModule.handleResponse (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\compiled\\next-server\\app-route-turbo.runtime.dev.js:19:132654)\n    at async handleResponse (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16151:32)\n    at async handler (D:\\job\\meowcat\\.next\\dev\\server\\chunks\\0feca_next_5eb1701a._.js:16204:13)\n    at async DevServer.renderToResponseWithComponentsImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1415:9)\n    at async DevServer.renderPageComponent (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1467:24)\n    at async DevServer.renderToResponseImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1517:32)\n    at async DevServer.pipeImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:1023:25)\n    at async NextNodeServer.handleCatchallRenderRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\next-server.js:394:17)\n    at async DevServer.handleRequestImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\base-server.js:914:17)\n    at async D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:373:20\n    at async Span.traceAsyncFn (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\trace\\trace.js:157:20)\n    at async DevServer.handleRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\dev\\next-dev-server.js:369:24)\n    at async invokeRender (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:240:21)\n    at async handleRequest (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:436:24)\n    at async requestHandlerImpl (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\router-server.js:484:13)\n    at async Server.requestListener (D:\\job\\meowcat\\node_modules\\.pnpm\\next@16.0.1_@babel+core@7.2_b06239b87fd34e7fec964cac49d59e86\\node_modules\\next\\dist\\server\\lib\\start-server.js:226:13)"
+[02:12:05.446] Server  ERROR   [auth][details]: "{}"
+[02:12:05.596] Browser LOG     Rendering message: {"id":"zHaRC30j1M4j2w14","parts":[{"text":"123","type":"text"}],"role":"user"}
+[02:12:05.596] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"zHaRC30j1M4j2w14","parts":[{"text":"123","type":"text"}],"role":"user"}
+[02:15:37.950] Server  LOG      ✓ Compiled in 49ms
+[02:16:09.729] Server  LOG      ✓ Compiled in 35ms
+[02:17:34.387] Server  LOG      ✓ Compiled in 44ms
+[02:17:38.626] Server  ERROR   AI_APICallError: Not Found
+[02:18:07.011] Server  LOG      ✓ Compiled in 38ms
+[02:18:07.088] Browser LOG     Rendering message: [{"text":"123","type":"text"}]
+[02:18:07.088] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: [{"text":"123","type":"text"}]
+[02:18:13.798] Browser LOG     Rendering message: [{"text":"123","type":"text"}]
+[02:18:13.798] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: [{"text":"123","type":"text"}]
+[02:18:14.320] Server  ERROR   AI_APICallError: Not Found
+[02:18:14.430] Browser LOG     Rendering message: [{"text":"123","type":"text"}]
+[02:18:14.430] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: [{"text":"123","type":"text"}]
+[02:18:59.401] Server  LOG      ✓ Compiled in 47ms
+[02:18:59.563] Browser ERROR   uncaughtError: TypeError: message.parts[0].slice is not a function
+[02:20:03.352] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:20:03.377] Server  LOG      ✓ Compiled in 45ms
+[02:25:39.280] Browser LOG     Rendering message: {"id":"wPy9bpOsOeqCEPhV","parts":[{"text":"hello,nihaonihao.我想问一下","type":"text"}],"role":"user"}
+[02:25:39.280] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"wPy9bpOsOeqCEPhV","parts":[{"text":"hello,nihaonihao.我想问一下","type":"text"}],"role":"user"}
+[02:25:39.812] Server  ERROR   AI_APICallError: Not Found
+[02:25:39.957] Browser LOG     Rendering message: {"id":"wPy9bpOsOeqCEPhV","parts":[{"text":"hello,nihaonihao.我想问一下","type":"text"}],"role":"user"}
+[02:25:39.957] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"wPy9bpOsOeqCEPhV","parts":[{"text":"hello,nihaonihao.我想问一下","type":"text"}],"role":"user"}
+[02:28:20.097] Server  LOG      ✓ Compiled in 42ms
+[02:28:20.469] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'role')
+[02:29:12.324] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:29:12.350] Server  LOG      ✓ Compiled in 38ms
+[02:29:24.622] Browser LOG     Rendering message: undefined
+[02:29:24.622] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: undefined
+[02:29:25.142] Server  ERROR   AI_APICallError: Not Found
+[02:29:25.293] Browser LOG     Rendering message: undefined
+[02:29:25.293] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: undefined
+[02:29:58.065] Server  LOG      ✓ Compiled in 35ms
+[02:29:58.162] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'role')
+[02:30:06.020] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:30:06.046] Server  LOG      ✓ Compiled in 36ms
+[02:55:25.548] Browser ERROR   uncaughtError: TypeError: m.filter is not a function
+[02:55:26.178] Server  ERROR   AI_APICallError: Not Found
+[02:58:45.767] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:58:45.785] Server  LOG      ✓ Compiled in 50ms
+[03:02:59.079] Browser ERROR   uncaughtError: TypeError: m.filter is not a function
+[03:02:59.628] Server  ERROR   AI_APICallError: Not Found
+[03:06:24.544] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:06:24.548] Server  LOG      ✓ Compiled in 41ms
+[03:06:34.579] Browser LOG     Rendering message: {"content":"123123","id":"XpLQph7GfUqAC7Hf","role":"user"}
+[03:06:34.580] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"123123","id":"XpLQph7GfUqAC7Hf","role":"user"}
+[03:06:35.163] Server  ERROR   AI_APICallError: Not Found
+[03:06:35.275] Browser LOG     Rendering message: {"content":"123123","id":"XpLQph7GfUqAC7Hf","role":"user"}
+[03:06:35.275] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"123123","id":"XpLQph7GfUqAC7Hf","role":"user"}
+[03:35:28.431] Browser LOG     Rendering message: {"content":"123123","id":"nKMcsFoKqzFYouk6","role":"user"}
+[03:35:28.431] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"123123","id":"nKMcsFoKqzFYouk6","role":"user"}
+[03:35:29.217] Server  ERROR   AI_APICallError: Forbidden
+[03:35:29.340] Browser LOG     Rendering message: {"content":"123123","id":"nKMcsFoKqzFYouk6","role":"user"}
+[03:35:29.340] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"123123","id":"nKMcsFoKqzFYouk6","role":"user"}
+[03:46:34.581] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:34.581] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.475] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.475] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 ","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 ","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:42.476] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:42.476] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:43.964] Browser LOG     Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:43.964] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"S5P1PCsJ09O52JeV","role":"user"}
+[03:46:43.964] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[03:46:43.964] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"e7PgRnM10WWmgqdd","role":"assistant"}
+[04:24:12.343] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'filter')
+[04:24:13.482] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[04:25:06.027] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[04:25:17.171] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:17.171] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.243] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.243] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:24.244] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:24.244] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:26.059] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:26.059] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:26.059] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:26.059] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:30.207] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:30.207] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:30.207] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:30.207] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:30.207] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:30.207] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，我没有","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.851] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.852] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.852] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:37.853] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:37.853] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 ","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 ","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:38.966] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:38.966] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:40.346] Browser LOG     Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:40.346] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"ZLaJQFLXsTH3BlNB","role":"user"}
+[04:25:40.346] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:40.346] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"VSGraaOwATB61a1A","role":"assistant"}
+[04:25:40.346] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:40.346] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"T0fi9MaWO32mvfme","role":"user"}
+[04:25:40.346] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:40.347] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"Zrpoqf51Liozt8rS","role":"assistant"}
+[04:25:44.734] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'filter')
+[04:25:45.423] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[04:29:13.203] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[06:14:19.092] Server  LOG      ✓ Compiled in 388ms
+[06:14:26.488] Server  LOG     Loaded chat with messages: [{...},{...},{...},{...}]
+[06:14:26.978] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[06:15:15.414] Server  LOG      ✓ Compiled in 61ms
+[06:15:16.480] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:15:16.499] Server  LOG      ✓ Compiled in 88ms
+[06:15:16.790] Server  LOG     Loaded chat with messages: [{...},{...},{...},{...}]
+[06:15:16.977] Server  ERROR    ⨯ TypeError: Cannot read properties of undefined (reading 'filter')
+[06:15:17.960] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'filter')
+[06:17:54.966] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[06:17:54.991] Server  LOG      ✓ Compiled in 56ms
+[06:17:56.486] Server  LOG     Loaded chat with messages: [{...},{...},{...},{...}]
+[06:17:56.627] Server  LOG     Rendering message: {}
+[06:17:56.638] Server  LOG     Rendering message: {}
+[06:17:56.640] Server  LOG     Rendering message: {}
+[06:17:56.641] Server  LOG     Rendering message: {}
+[06:17:57.412] Browser LOG     Rendering message: {"id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:17:57.412] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:17:57.412] Browser LOG     Rendering message: {"id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:17:57.412] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:17:57.412] Browser LOG     Rendering message: {"id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:17:57.412] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:17:57.412] Browser LOG     Rendering message: {"id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:17:57.412] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:18:05.186] Server  LOG     Loaded chat with messages: [{...},{...}]
+[06:18:05.334] Browser LOG     Rendering message: {"id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:18:05.334] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:18:05.334] Browser LOG     Rendering message: {"id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:18:05.334] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:06.380] Server  LOG      ✓ Compiled in 42ms
+[06:19:06.462] Browser LOG     Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:06.462] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:06.462] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:06.462] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:09.576] Server  LOG     Loaded chat with messages: [{...},{...},{...},{...}]
+[06:19:09.720] Browser LOG     Rendering message: {"content":"你好","id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:19:09.720] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:19:09.720] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:19:09.720] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:19:09.720] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:19:09.720] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:19:09.720] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:19:09.720] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:19:13.465] Server  LOG     Loaded chat with messages: [{...},{...}]
+[06:19:13.611] Browser LOG     Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:13.611] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:13.611] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:13.611] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:26.640] Server  LOG     Loaded chat with messages: [{...},{...}]
+[06:19:26.797] Browser LOG     Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:26.797] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"cmldioswq0001ukdk66p99bwt","role":"user"}
+[06:19:26.797] Browser LOG     Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:26.797] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！👋欢迎使用智能问答助手。有什么我可以帮你的吗？✨  \n是学习问题、工作疑问，还是生活琐事？💼 请尽管说！","id":"cmldiot430003ukdkkpwlmbeu","role":"assistant"}
+[06:19:27.542] Server  LOG     Loaded chat with messages: [{...},{...},{...},{...}]
+[06:19:27.677] Browser LOG     Rendering message: {"content":"你好","id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:19:27.677] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你好","id":"cmldk2kl70005ukdkyqfned9s","role":"user"}
+[06:19:27.677] Browser LOG     Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:19:27.677] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n你好呀！😊 我是你的AI小助手，有什么我可以帮你的吗？","id":"cmldk2ktg0007ukdkxdlold4u","role":"assistant"}
+[06:19:27.677] Browser LOG     Rendering message: {"content":"你吃饭了吗","id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:19:27.677] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"你吃饭了吗","id":"cmldk2vp40009ukdk5g8vp352","role":"user"}
+[06:19:27.677] Browser LOG     Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:19:27.677] Browser LOG     [2;38;2;124;124;124m%s[0m Rendering message: {"content":"\n哈哈，我没有实体，所以不需要吃饭哦～不过我的“日常”是不断处理各种信息，帮你解答问题、聊天或者完成任务！🌞  \n最近你有没有什么想聊的？或者需要我帮忙解决的事情？🙂 今天有什么我可以为你效劳的吗？","id":"cmldk2vw3000bukdk0urc7cyw","role":"assistant"}
+[06:26:18.025] Server  LOG      ✓ Compiled in 59ms

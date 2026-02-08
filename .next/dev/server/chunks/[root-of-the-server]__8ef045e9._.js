@@ -136,7 +136,7 @@ async function POST(req) {
     const { messages, chatId } = await req.json();
     const modelMessages = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ai$40$6$2e$0$2e$77_zod$40$4$2e$3$2e$6$2f$node_modules$2f$ai$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["convertToModelMessages"])(messages); // 注意要 await :contentReference[oaicite:1]{index=1}
     const result = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$ai$40$6$2e$0$2e$77_zod$40$4$2e$3$2e$6$2f$node_modules$2f$ai$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$locals$3e$__["streamText"])({
-        model: deepseek("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
+        model: deepseek.chat("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
         messages: modelMessages,
         onFinish: async ({ text })=>{
             const last = messages[messages.length - 1];

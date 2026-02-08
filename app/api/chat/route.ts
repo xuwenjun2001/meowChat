@@ -25,7 +25,7 @@ export async function POST(req: Request) {
   const modelMessages = await convertToModelMessages(messages); // 注意要 await :contentReference[oaicite:1]{index=1}
 
   const result = streamText({
-    model: deepseek("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
+    model: deepseek.chat("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
     messages: modelMessages,
 
     onFinish: async ({ text }) => {

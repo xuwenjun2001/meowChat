@@ -44,5 +44,9 @@ export default async function ChatPage(props: ChatPageProps) {
     role: m.role as "user" | "assistant",
   }));
 
-  return <ChatInterface id={chat.id} initialMessages={uiMessages} />;
+  console.log("Loaded chat with messages:", uiMessages);
+
+  return (
+    <ChatInterface id={chat.id} initialMessages={uiMessages} isOldChat={true} />
+  );
 }

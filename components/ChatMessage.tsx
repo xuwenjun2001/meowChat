@@ -1,5 +1,6 @@
 "use client";
 
+import { UIMessage } from "@ai-sdk/react";
 import { cn } from "../lib/utils";
 
 type Message = {
@@ -8,7 +9,7 @@ type Message = {
   content: string;
 };
 
-export function ChatMessage({ message }: { message: Message }) {
+export function ChatMessage({ message }) {
   const isUser = message.role === "user";
 
   return (
